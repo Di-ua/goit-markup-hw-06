@@ -516,20 +516,26 @@
             </li>
           </ul>
         </div>
-      </div>
-      <div class="footer form">
-        <form class="form" autocomplete="off">
-          <b>Подпишитесь на рассылку</b>
-          <label class="form-field">
-            <input
-              type="email"
-              class="form-input"
-              name="mail"
-              placeholder="E-mail"
-            />
-          </label>
-          <button type="submit">Отправить</button>
-        </form>
+
+        <div class="mailing block">
+          <b class="follow">Подпишитесь на рассылку</b>
+          <form class="mailing-form" autocomplete="off">
+            <label class="form-field">
+              <input
+                type="email"
+                class="mail-input"
+                name="email"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <button type="button" class="button submit">
+              Подписаться<svg class="icon-telegram">
+                <use href="./images/symbol-defs.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -577,10 +583,11 @@
             <label for="comment" class="form-label comment">Комментарий</label>
           </div>
           <label class="checkbox-label">
-            <input class="checkbox" type="checkbox" /><span
-              class="icon-check"
-            ></span
-            >Соглашаюсь с рассылкой и принимаю
+            <input class="checkbox" type="checkbox" />
+            <svg class="icon-check">
+              <use href="./images/symbol-defs.svg#icon-check"></use>
+            </svg>
+            Соглашаюсь с рассылкой и принимаю
             <a class="modal-link" href="#"> Условия договора</a>
           </label>
           <button class="button send" type="submit">Отправить</button>

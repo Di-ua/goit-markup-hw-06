@@ -614,6 +614,10 @@ img {
   margin-left: 94px;
 }
 
+.form-field.footer-form-field {
+  margin-bottom: 0;
+}
+
 .mailing-form {
   position: relative;
   display: flex;
@@ -847,11 +851,13 @@ img {
 
 .checkbox:checked + .icon-check {
   background-color: var(--accent-background-color);
-  background-image: url(./img/.icon-check.svg);
+  background-image: url(../images/icon-check.svg);
   background-size: contain;
   /* background-origin: border-box; */
   background-clip: border-box;
+  background-position: center;
   border-color: var(--accent-text-color);
+  background-repeat: no-repeat;
 }
 
 .button.send {

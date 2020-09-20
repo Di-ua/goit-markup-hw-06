@@ -783,7 +783,6 @@ img {
 
 .form-input:focus {
   border-color: var(--accent-background-color);
-  color: var(--accent-text-color);
   outline: none;
   cursor: pointer;
 }
